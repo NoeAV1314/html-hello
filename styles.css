@@ -1,0 +1,68 @@
+body {
+    background: black;
+}
+.post{
+    display: flex;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 3%;
+    width: 35%;
+    background: rgb(247, 242, 242);
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.post-header{
+    display: flex;
+    margin: 0.2%;
+    font-family: ui-monospace;
+}
+.post-footer{
+    margin: 2%;
+}
+.User{
+    padding-top: 4px;
+    margin-inline-end: 330px; /* Tiene que haber una mejor forma para que se deje de centrar */
+    margin-inline-start: 10px; /* ? */
+}
+i.fa-html5 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: xx-large;
+}
+.dropdown-toggle{
+    border: none;
+    background: none;
+    content: none;
+}
+.dropdown-menu{
+    transform: translate(471px, 101px);
+}
+button.dropdown-toggle::after {
+    content: none;
+}
+i.fa-ellipsis-vertical {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: xx-large;
+}
+.buttons{
+    font-size: larger;
+}
+.fa-bookmark{
+    float: inline-end;
+}
+.fit-picture {
+    width: 100%;
+}
+i.fa-circle-chevron-left {
+    padding-right: 30px;
+    font-size: large;
+}
+i.fa-circle-chevron-right {
+    padding-left: 30px;
+    font-size: large;
+}

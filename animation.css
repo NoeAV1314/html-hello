@@ -1,0 +1,11 @@
+/* Testing on my own. Improving code... */
+
+
+/* Aparentemente este cambia la velocidad del salto. No era lo que buscaba pero fue divertido probarlo :D
+:root {
+    --fa-animation-duration: 2s;
+} */
+
+:root {
+    --fa-animation-iteration-count: 2; /* Lo encontre! Aunque no regresa muy sutilmente*/
+}
